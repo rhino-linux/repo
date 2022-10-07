@@ -1,9 +1,0 @@
-name="opera-beta-deb"
-gives="opera-beta"
-replace="${gives}"
-repology=("project: opera")
-version="89.0.4447.20"
-url="https://get.geo.opera.com/pub/${gives}/${version}/linux/${gives}_${version}_amd64.deb"
-description="Opera is a fast, secure, and user-friendly web browser - Beta channel"
-hash="98c46aa4ec55157ade72ba89aa671d351823292241fc1a86459619591f65d18d"
-maintainer="WRM-42 <y8bsbahy@anonaddy.me>"

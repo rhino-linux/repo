@@ -1,9 +1,0 @@
-name="yandex-browser-stable-deb"
-gives="yandex-browser-stable"
-replace="${gives}"
-repology=("project: yandex-browser")
-version="22.5.3.673-1"
-url="http://repo.yandex.ru/yandex-browser/deb/pool/main/y/${gives}/${gives}_${version}_amd64.deb"
-description="The web browser from Yandex"
-hash="3792b5bca194877cabe5616251ad90deb39a22d09a1e514949f3b51ddfb793fa"
-maintainer="WRM-42 <y8bsbahy@anonaddy.me>"

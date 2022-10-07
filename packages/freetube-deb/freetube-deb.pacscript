@@ -1,7 +1,0 @@
-name="freetube-deb"
-gives="freetube"
-version="0.17.1"
-url="https://github.com/FreeTubeApp/FreeTube/releases/download/v${version}-beta/${gives}_${version}_amd64.deb"
-description="An Open Source YouTube app for privacy."
-hash="0abdf750e2589a8918bb3f04bc72e358f32f699793ef703fbb74c04c4ef783af"
-maintainer="WRM-42 <y8bsbahy@anonaddy.me>"

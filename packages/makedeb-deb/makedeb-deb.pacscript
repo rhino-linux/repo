@@ -1,9 +1,0 @@
-name="makedeb-deb"
-gives="makedeb"
-breaks="${gives} ${gives}-git"
-version="14.1.2"
-repology=("project: ${gives}")
-url="https://proget.hunterwittenborn.com/debian-feeds/${gives}/main/${gives}/all/${gives}_all_${version}-stable.deb"
-description="A tool which takes PKGBUILD files and creates Debian packages installable with DPKG/APT"
-hash="398485c82896ed2e3b35892e2272769affe6a25d44ef91afa7f07d349ce63880"
-maintainer="Henryws <hwengerstickel@pm.me>"
