@@ -79,10 +79,10 @@ jobs:
               pacscript_file=`basename "${changed_file}"`
               package_name="${pacscript_file/.pacscript/ }"
               package_dir=`dirname "${changed_file}"`
-              echo "Running pacstall -I for ${package_name}..."
-              echo "pacstall -Il ${package_name}"
+              echo "Running pacstall -I for ${pacscript_file}..."
+              echo "pacstall -I ${package_name}"
               cd ${package_dir}
-              pacstall --disable-prompts -Il ${package_name}
+              pacstall --disable-prompts -I "${pacscript_file}"
             fi
           done
         shell: sudo -E -u dio bash {0}
